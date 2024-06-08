@@ -11,7 +11,10 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get("/", (req, res) => {
-    res.send("Server is running!")
+    res.json({
+        result,
+        message: "Data stored successfully!"
+    })
 })
 
 app.post("/store", (req, res) => {
