@@ -1,9 +1,35 @@
-(() => {
-    //
 
     let result = document.querySelector(".result")
     let select = document.querySelector("select")
     let textarea = document.querySelector("textarea")
+    let form = document.querySelector("form")
+    let formButton = document.querySelector("[type='submit']")
+    let resultContent = document.querySelector(".resultContent")
+    let key = "729b64f324e94610b431c512397f957a";
+    let endpoint = "https://api.cognitive.microsofttranslator.com";
+
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+
+        formButton.setAttribute("disabled", "disabled")
+
+        axios({
+            method: "POST",
+            baseURL: "https://globalspeakbackend.azurewebsites.net/store",
+            headers: {
+                'Content-type': 'application/json'
+            },
+            data: {
+                'oText': textarea.value,
+                'tText': result.innerText
+            },
+            responseType: 'json'
+        }).then(response => {
+            console.log(response.data.result)
+            renderContent()
+            formButton.removeAttribute("disabled")
+        })
+    })
 
     textarea.addEventListener("input", (e) => {
        translate(e.target.value) 
@@ -14,8 +40,7 @@
     }
 
     function translate(text) {
-    let key = "729b64f324e94610b431c512397f957a";
-    let endpoint = "https://api.cognitive.microsofttranslator.com";
+    
 
     // location, also known as region.
     // required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
@@ -45,4 +70,23 @@
         renderText(response.data[0].translations[0].text)
     }, console.error)
 }
-})()
+
+    function renderContent() {
+    axios.get("https://globalspeakbackend.azurewebsites.net/", {
+        responseType: 'json'
+    }).then(response => {
+        console.log(response)
+        resultContent.innerHTML = ""
+        let {result} = response.data
+
+            result.reverse().forEach((el => {
+                let div = document.createElement("div")
+
+                div.innerText = el.tText
+
+                resultContent.appendChild(div)
+            }))
+    }, console.error)
+}
+
+renderContent()

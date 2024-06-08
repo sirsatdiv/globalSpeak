@@ -103,6 +103,10 @@
     font-size: 1rem;
     cursor: pointer;
   }
+
+  .cta-btn:disabled {
+    background-color: grey;
+  }
   
   /* Features section */
   .features {
@@ -135,6 +139,28 @@
   .translate {
     padding: 4rem 2rem;
     text-align: center;
+  }
+
+  .resultContent {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.4rem;
+    overflow-x: auto;
+  }
+
+  .resultContent::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .resultContent > div {
+    background-color: #6C9BCF;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50px;
+    flex: 0 0 max-content;
+    writing-mode: horizontal-tb;
   }
   
   .translate h2 {

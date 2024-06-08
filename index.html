@@ -40,13 +40,17 @@
 
   <section class="translate">
       <h2>Translate</h2>
+      <div class="resultContent">
+        <div>Bonjour</div>
+      </div>
       <form>
         <div>
-          <select>
+          <select required>
             <option value="fr">French</option>
             <option value="ja">japanese</option>
           </select>
-          <textarea rows="2" placeholder="Enter text to translate"></textarea>
+          <textarea required rows="4" placeholder="Enter text to translate"></textarea>
+          <button type="submit" class="cta-btn" style="width: max-content;">Save</button>
         </div>
         <div class="result">
         </div>
