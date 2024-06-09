@@ -39,7 +39,7 @@ app.get("/goals", (req, res) => {
 app.post("/storegoal", (req, res) => {
     const { g_name, category, desc } = req.body
 
-    result.push({ g_name, category, desc })
+    goals.push({ g_name, category, desc })
      
     res.json({
         goals,
