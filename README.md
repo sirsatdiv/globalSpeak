@@ -1,12 +1,12 @@
-<h1>GlobalSpeak - Fitness Tracking Application</h1>
+<h1>GlobalSpeak - Bridging the Language Divide</h1>
 <h2>Project Title: GlobalSpeak</h2>
-<b><a href="https://proud-ground-06cb9f410.4.azurestaticapps.net/">GlobalSpeak</a></b>
+<b><a href="https://lemon-dune-04ec8280f.5.azurestaticapps.net/">GlobalSpeak</a></b>
 <br>
 <h2>Project Details</h2>
-<b>Project Demo URL :</b> https://proud-ground-06cb9f410.4.azurestaticapps.net/ <br>
-<b>Github Repository URL :</b> https://github.com/malesh18/fitkit<br>
+<b>Project Demo URL :</b> https://lemon-dune-04ec8280f.5.azurestaticapps.net/ <br>
+<b>Github Repository URL :</b> https://github.com/sirsatdiv/globalSpeak<br>
 <b>Google Drive URL :https://1drv.ms/v/c/857ea00ddca95c1f/EcRIUaPhqX1Fjf5CiiHmal8BvFhz_Tpc1zpILriPLIe9fg?e=yhRBrQ</b> <br>
-<b>Industry :</b> Fitness and Health<br>
+<b>Industry :</b> Lifestyle<br>
 
 <h2>Application Overview</h2>
 <p align="justify">In today's interconnected world, effective communication is the key to success. However, language barriers can often hinder our ability to connect with people from different cultures and backgrounds. This is where GlobalSpeak comes in – a cutting-edge text translation platform designed to break down these barriers and enable seamless communication across borders.
@@ -33,20 +33,30 @@ At GlobalSpeak, our mission is to make the world a more connected place by provi
 
 <h2>Screenshots</h2>
 <h3>Static Web App</h3>
-<b>Description:</b><p align="justify">Using Static Web App for hosting the Application</p>
-<img src="https://github.com/malesh18/fitkit/blob/main/screenshots/frontend.png" alt="fitkit-dashboard"></img><br>
+<b>Description:</b><p align="justify">Using Static Web App for hosting frontend of the Application</p>
+<img src="./screenshots/frontend.png" alt="fitkit-dashboard"></img><br>
 
-<h3>Storage Account</h3>
+<h3>App Service</h3>
+<b>Description:</b><p align="justify">Using App service for hosting backend of the application</p>
+<img src="./screenshots/backend.png" alt="exercise-logging"></img><br>
+
+<h3>Azure Cosmos DB</h3>
 <b>Description:</b><p align="justify">Using App service for hosting backend of the application</p>
 <img src="https://github.com/malesh18/fitkit/blob/main/screenshots/backend.png" alt="exercise-logging"></img><br>
 
+<h3>Storage Account</h3>
+<b>Description:</b><p align="justify">Using App service for hosting backend of the application</p>
+<img src="./screenshots/storage_account.png" alt="exercise-logging"></img><br>
+
 <h3>Azure AI Translator</h3>
 <b>Description:</b><p align="justify">Using Azure AI Translator Service as for translating the text.</p>
-<img src="https://github.com/malesh18/fitkit/blob/main/screenshots/azure-bot.png" alt="fitness-insights"></img>
+<img src="./screenshots/translator.png" alt="fitness-insights"></img>
 
 <h3>Live Demo </h3>
 <b>Description:</b><p align="justify">Live project hosted using azure cloud services .</p>
-<img src="https://github.com/malesh18/fitkit/blob/main/screenshots/live-demo.png" alt="fitness-insights"></img>
+<img src="./screenshots/demo1.png" alt="fitness-insights"></img>
+<img src="./screenshots/demo2.png" alt="fitness-insights"></img>
+<img src="./screenshots/demo3.png" alt="fitness-insights"></img>
 
 <h2>Future Enhancements</h2>
 <p align="justify">While GlobalSpeak already offers cutting-edge text translation capabilities, the platform aims to continuously evolve and expand its offerings to meet the growing demands of a multilingual world. Future enhancements could include voice translation and transcription services, enabling seamless communication through audio and video content. Additionally, users may be able to customize machine translation models with their own domain-specific data, ensuring highly accurate and contextually relevant translations. Robust translation memory and glossary management tools could streamline projects, improve consistency, and reduce costs for frequent users. Advanced quality assessment mechanisms would provide detailed feedback on translation outputs, driving continuous improvement. A collaborative translation workspace would cater to enterprises and agencies, facilitating efficient teamwork and project management. Furthermore, language learning resources and translation practice exercises could expand GlobalSpeak's reach to language enthusiasts and aspiring translators. Lastly, multilingual customer support channels would enhance the overall user experience, building trust and fostering a global community of satisfied clients. With these enhancements, GlobalSpeak aims to solidify its position as a comprehensive language solution provider, empowering seamless communication across cultures and industries.</p>
