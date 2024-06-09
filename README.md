@@ -42,7 +42,7 @@ At GlobalSpeak, our mission is to make the world a more connected place by provi
 
 <h3>Azure Cosmos DB</h3>
 <b>Description:</b><p align="justify">Using App service for hosting backend of the application</p>
-<img src="https://github.com/malesh18/fitkit/blob/main/screenshots/backend.png" alt="exercise-logging"></img><br>
+<img src="./screenshots/db.png" alt="exercise-logging"></img><br>
 
 <h3>Storage Account</h3>
 <b>Description:</b><p align="justify">Using App service for hosting backend of the application</p>
