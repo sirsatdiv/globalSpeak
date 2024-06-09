@@ -5,7 +5,7 @@
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://lemon-dune-04ec8280f.5.azurestaticapps.net/ <br>
 <b>Github Repository URL :</b> https://github.com/sirsatdiv/globalSpeak<br>
-<b>Google Drive URL :https://1drv.ms/v/c/857ea00ddca95c1f/EcRIUaPhqX1Fjf5CiiHmal8BvFhz_Tpc1zpILriPLIe9fg?e=yhRBrQ</b> <br>
+<b>Google Drive URL :https://1drv.ms/v/s!AuAvbZd68ZoVhFB7Zawea2es1q55?e=E17qeJ</b> <br>
 <b>Industry :</b> Lifestyle<br>
 
 <h2>Application Overview</h2>
